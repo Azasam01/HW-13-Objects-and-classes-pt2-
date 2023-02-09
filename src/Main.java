@@ -10,6 +10,8 @@ public class Main {
         System.out.println("Year of publication of the book - " + book1.getYearOfPublication());
 
         System.out.println("author1.hashCode() = " + author1.hashCode());
+        System.out.println("book1.hashCode() = " + book1.hashCode());
+
 
         Author author2 = new Author("Fyodor", "Dostoyevsky");
 
@@ -19,8 +21,10 @@ public class Main {
         System.out.println("Year of publication of the book - " + book2.getYearOfPublication());
 
         System.out.println("author2.hashCode() = " + author2.hashCode());
+        System.out.println("book2.hashCode() = " + book2.hashCode());
 
         System.out.println("author1.equals(author2)? " + author1.equals(author2));
+        System.out.println("book1.equals(book2)? " + book1.equals(book2));
 
 
     }
